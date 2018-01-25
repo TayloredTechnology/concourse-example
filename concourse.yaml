@@ -1,0 +1,7 @@
+coreos:
+  example-app:
+    imageTag: v1.0
+    labels:
+      k8s-app: simple
+    vetos:
+      containerRepository: quay.io
